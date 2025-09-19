@@ -1,0 +1,3 @@
+[submodule "OpenWanderary"]
+	path = OpenWanderary
+	url = https://github.com/Li-Zhaoxi/OpenWanderary
