@@ -9,7 +9,9 @@ cd OpenWanderary-examples
 make rely
 # 编译wdr库
 make wdr
+# 安装wdr库，包含C++和Py
+make install
 # 编译用例
-make examples
+make example
 
 ```
