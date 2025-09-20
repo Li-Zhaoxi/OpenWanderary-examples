@@ -10,12 +10,14 @@ wdr:
 	cd OpenWanderary; \
 	make release; \
 
-install-wdr:
-	mkdir .cache
+install:
+	mkdir .cache; \
 	cd OpenWanderary; \
 	cd build_release; \
-	sudo make install
-	sudo ldconfig
+	sudo make install; \
+	sudo ldconfig; \
+	pip install dist/wanderary-0.1.0-py3-none-any.whl --force-reinstall
+
 
 example:
 	cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release; \
