@@ -5,3 +5,4 @@ bin/
 examples/modules
 __pycache__
 .cache/
+data/*.bin
